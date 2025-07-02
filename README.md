@@ -55,3 +55,26 @@
 <br>a[a > 5]
 <br>a[(a % 2) == 0]
 
+## 5. 배열 구조 변경 및 병합
+**배열 구조 변경**
+<br>a.reshape(3, 2)
+<br>a.ravel()
+<br>a.T  # 전치
+
+**병합과 분할**
+<br>np.hstack((a, b))
+<br>np.vstack((a, b))
+<br>np.split(a, 2)
+
+## 6. 통계 및 수학 함수
+**통계 함수**
+
+<br>np.mean(a)
+<br>np.median(a)
+<br>np.std(a)
+<br>np.var(a)
+<br>np.sum(a)
+<br>np.max(a)
+<br>np.min(a)
+<br>np.argmax(a)
+<br>np.argmin(a)
