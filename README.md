@@ -25,13 +25,13 @@
 
 ## 2. 배열 생성 및 속성
   ** 배열 생성 함수**
-import numpy as np
+<br>import numpy as np
 
-np.array([1, 2, 3])
-np.zeros((2, 3))
-np.ones((3, 3))
-np.arange(0, 10, 2)
-np.linspace(0, 1, 5)
+<br>np.array([1, 2, 3])
+<br>np.zeros((2, 3))
+<br>np.ones((3, 3))
+<br>np.arange(0, 10, 2)
+<br>np.linspace(0, 1, 5)
 
 
 
