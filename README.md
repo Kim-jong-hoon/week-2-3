@@ -33,6 +33,28 @@
 <br>np.arange(0, 10, 2)
 <br>np.linspace(0, 1, 5)
 
+**배열 속성 확인**
 
 
+<br>a = np.array([[1, 2, 3], [4, 5, 6]])
+<br>a.shape       # 배열 형태
+<br>a.ndim        # 차원 수
+<br>a.size        # 전체 요소 수
+<br>a.dtype       # 자료형
+
+## 3. 배열 연산
+<br>np.sqrt(a)
+<br>np.exp(a)
+<br>np.log(a)
+<br>np.sin(a)
+
+## 4. 인덱싱 및 조건 필터링
+**인덱싱과 슬라이싱**
+<br>a[0, 1]
+<br>a[:, 0]
+<br>a[1:3, :]
+
+**조건 필터링**
+<br>a[a > 5]
+<br>a[(a % 2) == 0]
 
